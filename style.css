@@ -1,0 +1,38 @@
+
+.banner_photo {
+    width: 100%;
+    height: 40pc;
+    object-fit: cover;
+    
+}
+/* در اینجا بهتر است اسم دهی را کامل بنویسیم و از مای  استفاده نکنیم */
+.heading-title{
+    color: #000103;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    /* سعی کنید بجای پیکسل از درصد استفاده کنید چون در صفحات کوچک مثل موبایل */
+     /* هم همانقدر که پیکسل دادیم اعمال میکنه مثلا ۵۰۰ پیکسل */
+
+}
+.menue{
+    display: flex;
+    flex-direction:row;
+    list-style-type:none;
+    position: absolute;
+    top: 20%;
+    right: 27%;
+
+}
+.list-items{
+    margin-right: 15px;
+    cursor: pointer;
+    color: #220880;
+}
+.body{
+    padding-bottom: 3%;
+    background-color: rgb(7, 37, 37);
+}
+
+
